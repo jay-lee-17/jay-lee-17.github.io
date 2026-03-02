@@ -130,7 +130,15 @@ main {
   transition: all 0.3s ease;
 }
 
-.project-card:hover {
+.project-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.project-card:hover,
+.project-card-link:hover {
   border-color: var(--accent-soft);
   box-shadow: var(--shadow-hover);
   transform: translateY(-1px);
