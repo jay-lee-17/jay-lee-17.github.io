@@ -6,8 +6,8 @@
   --accent: #3d6b55;
   --accent-light: #e4eeea;
   --border: #e4e4e2;
-  --font-sans: 'DM Sans', system-ui, sans-serif;
-  --font-serif: 'Source Serif 4', Georgia, serif;
+  --font-sans: 'Geologica', system-ui, sans-serif;
+  --font-serif: 'Geologica', system-ui, sans-serif;
 }
 
 * {
@@ -118,7 +118,7 @@ main {
 .hero-title {
   font-family: var(--font-serif);
   font-size: clamp(3rem, 8vw, 5.5rem);
-  font-weight: 700;
+  font-weight: 800;
   margin: 0 0 0.75rem;
   letter-spacing: -0.03em;
   line-height: 1.05;
