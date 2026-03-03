@@ -65,7 +65,10 @@
   </main>
 
   <footer class="footer">
-    <p>&copy; 2025 Joshua Lee</p>
+    <p>&copy; <span id="year"></span> Joshua Lee</p>
   </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
