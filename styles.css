@@ -48,19 +48,32 @@ body {
   justify-content: space-between;
 }
 
-/* Phase 4: name as nav home anchor */
 .nav-home {
-  font-family: var(--font-serif);
-  font-size: 0.9375rem;
-  font-weight: 600;
-  color: var(--text);
   text-decoration: none;
-  letter-spacing: -0.01em;
-  transition: color 0.2s;
+  display: flex;
+  align-items: center;
 }
 
-.nav-home:hover {
+.nav-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--accent-light);
   color: var(--accent);
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  transition: background 0.2s, outline-color 0.2s;
+}
+
+.nav-home:hover .nav-avatar {
+  background: var(--accent);
+  color: #fff;
 }
 
 .nav-links {
